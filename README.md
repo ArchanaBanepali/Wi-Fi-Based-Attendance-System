@@ -1,7 +1,7 @@
  function doGet(e){
   
   Logger.log(e.parameter);
- return HtmlService.createHtmlOutputFromFile("captive portal");
+  return HtmlService.createHtmlOutputFromFile("captive portal");
   
 }
 
